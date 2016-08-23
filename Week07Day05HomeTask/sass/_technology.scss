@@ -1,0 +1,47 @@
+
+$colorOne: #1AC6FF;
+$width: 1140px;
+
+
+
+
+  #technology{
+    border-bottom: 1px solid #E9E9E9;
+    background-color: white;
+    width: 100%;
+    text-align: left;   
+    .newAge{
+      margin: 50px 0px;
+    }
+    h2{
+      margin-top: 25px;
+    }
+    span{
+      color: $colorOne;
+    }
+    p{
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 1px;
+    }
+    button{
+      margin: 15px 10px 0 0;
+      border: 1px solid $colorOne;
+      color: $colorOne;
+      background-color: white;
+      border-radius: 3px;
+      font-size: 14px;
+      width: 150px;
+      height: 46px;
+      padding: 15px 15px;
+      line-height: 1;
+    }
+    button:hover{
+      background-color:$colorOne;
+      color: white;
+      transition: all 0.5s ease;
+    }
+    img{
+      margin-bottom: 50px;
+    }
+  }

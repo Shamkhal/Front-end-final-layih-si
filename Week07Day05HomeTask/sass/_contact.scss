@@ -1,0 +1,69 @@
+$colorOne: #1AC6FF;
+$width: 1140px;
+#contact{
+	.launch{
+		background-color: $colorOne;
+		color: #FFFFFF;
+		padding: 10px 10px 20px 10px;	
+	i{
+		padding-top: 20px;
+	}
+	.btn{
+		text-align: center;
+  		height: 45px;
+  		border: 1px solid #FFFFFF;
+  		color: #FFFFFF;
+  		background-color: transparent;
+        transition: all 0.1s ease;
+        margin-top: 20px;
+  		}
+  		.btn:hover{
+  		background-color:white;
+  		color: $colorOne;
+  		}
+	}
+	.contact{
+		color: #FFFFFF;
+		padding: 50px 0;
+		h5{
+			padding: 20px;
+		}
+		i{
+			color: $colorOne;
+
+		}
+		.firstPart{
+			img{
+				margin-bottom: 30px;
+			}
+			p{
+				line-height: 20px;
+			}
+		}
+		.logo{
+			text-align: center;
+			i{
+				margin: 10px 0;
+				&:hover{
+					opacity: 0.5;
+				}
+			}
+		}
+		.contactInfo{
+			h5{
+				text-align: center;
+			}
+			i{
+				float: left;
+				margin: 5px 10px; 
+				font-size: 1.2em;
+				text-align: center;
+			}
+		}
+	}
+	footer{
+		text-align: center;
+		padding-top: 120px;
+		color: #C8C9DD;
+	}
+}

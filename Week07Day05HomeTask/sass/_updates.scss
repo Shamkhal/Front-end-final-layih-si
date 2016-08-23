@@ -1,0 +1,36 @@
+
+$colorOne: #1AC6FF;
+$width: 1140px;
+
+#updates{
+    color:white;
+  .content{
+    padding: 20px;
+    float: left;
+}
+  .subscribe{
+    padding: 55px;
+    margin-left: 20px;
+    .input{
+      padding: 8px;
+      font-size: 17px;
+      border: none;
+      border-left: 3px solid $colorOne;
+      }
+    .btn{
+      border: 1px solid white;
+      color: white;
+      background: none;
+      border-radius: 3px;
+      margin: 0 5px;
+      padding: 13px 25px;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .btn:hover{
+      background: white;
+      color: $colorOne;
+      transition: all 0.5s ease;
+    }
+  }
+}

@@ -1,0 +1,170 @@
+$colorOne: #1AC6FF;
+$width: 1140px;
+
+#packages{
+  background-color: white;
+  text-align: center;
+  .product{
+    h1{ 
+    margin: 60px 0 15px;
+    span{
+    color: $colorOne;
+    }
+    p{
+    margin: 0 auto;
+    width: 550px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+    padding: 0 100px;
+    letter-spacing: 1px;
+    }
+  }
+
+  }
+   .individual{
+    margin: 0 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+    .title{
+      line-height: 125px;
+      color:#BEBEBE;
+      padding: 20px;
+      background-color:#F8F8F8;
+    }
+    .price{
+      line-height: 125px;
+      font-weight: 300px;
+      color:#BEBEBE;
+      background-color:#F3F3F3;
+      font-size: 115px;
+      
+     span{
+          position: relative;
+          top: -40px;
+          font-size: 47px;
+          font-weight: 500;
+          line-height: 1;
+
+       }
+    }
+    .detail{
+
+      background-color:#F8F8F8;
+      padding: 20px;
+      ul{
+        padding: 20px;
+        li{
+          color:#BEBEBE;
+          display: block;
+          padding: 20px;
+          border-bottom: 1px solid #dadada;
+          letter-spacing: 1px;
+
+        }
+        li:last-child{
+          border: none;
+        }
+      }
+      input{
+        border-radius:3px;
+        background: none;
+        color: #BEBEBE;
+        border: 1px solid #BEBEBE;
+        padding: 10px;
+      }
+    }
+  }
+  .studio{
+    margin: 0 15px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+    .title{
+
+      font-size: 25px;
+      padding: 20px 0 18px;
+      background-color:#F8F8F8;
+
+    }
+    .price{
+      line-height: 125px;
+      color: #1ac6ff;
+      background-color:#F3F3F3;
+      font-size: 115px;
+      
+     span{
+          position: relative;
+          top: -40px;
+          font-size: 47px;
+          line-height: 1;
+
+       }
+    }
+    .detail{
+
+      background-color:#F8F8F8;
+      padding: 20px;
+      ul{
+        padding: 20px;
+        li{
+          display: block;
+          padding: 20px;
+          letter-spacing: 1px;
+          border-bottom: 1px solid #dadada;
+        }
+        li:last-child{
+          border: none;
+        }
+      }
+          input{
+        font-size: 14px;
+        width: 144px;
+        background-color: transparent;
+        color: $colorOne;
+        border: 1px solid $colorOne;
+        border-radius: 3px;
+        padding: 10px;
+      }
+       input:hover{
+        border: 1px solid white;
+        background-color: white;
+        color: $colorOne;
+        transition: all 0.5s ease;
+      }
+    } 
+  }
+    .studio:hover{
+             transition: all 0.5s ease;
+
+    .title{
+      color: white;
+      background-color:$colorOne;
+    }
+    .price{
+      color: white;
+      background-color:#23ADDB;
+    }
+    .detail{
+      color: white;
+      background-color:$colorOne;
+      ul{
+        li{ 
+          color: white;
+          border-bottom: 1px solid white;
+        }
+      }
+    }
+      input{
+        color: white;
+        border: 1px solid white;
+      }
+      input:hover{
+        color: $colorOne;
+     
+      }
+
+    }
+
+}

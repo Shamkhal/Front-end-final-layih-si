@@ -1,0 +1,88 @@
+$colorOne: #1AC6FF;
+$width: 1140px;
+
+
+#logo{
+    min-height: 120px;
+    background-color: #F0F0F0;
+    overflow: hidden;
+      img{
+
+        padding: 20px 0 25px 0;
+      }
+      .ab{
+      	animation: myFAni 1s 1;
+      	animation-play-state: paused;
+      }
+      @keyframes myFAni{
+      	0%{
+      		transform: translateY(-350px);
+      	}
+      	16%{
+      		transform: translateY(20px);
+      	}
+      	100%{
+      		transform: translateY(0px);
+      	}
+      }
+      .ab1{
+      	animation: myFAniFi 1s 1;
+      	animation-play-state: paused;
+      }
+      @keyframes myFAniFi{
+      	0%{
+      		transform: translateY(350px);
+      	}
+      	32%{
+      		transform: translateY(-20px);
+      	}
+      	100%{
+      		transform: translateY(0px);
+      	}
+      }
+      .ab2{
+      	animation: myFAniS 1s 1;
+      	animation-play-state: paused;
+      }
+      @keyframes myFAniS{
+      	0%{
+      		transform: translateY(-350px);
+      	}
+      	48%{
+      		transform: translateY(20px);
+      	}
+      	100%{
+      		transform: translateY(0px);
+      	}
+      }
+      .ab3{
+      	animation: myFAniT 1s 1;
+      	animation-play-state: paused;
+      }
+      @keyframes myFAniT{
+      	0%{
+      		transform: translateY(350px);
+      	}
+      	64%{
+      		transform: translateY(-20px);
+      	}
+      	100%{
+      		transform: translateY(0px);
+      	}
+      }
+      .ab4{
+      	animation: myFAniF 1s 1;
+      	animation-play-state: paused;
+      }
+      @keyframes myFAniF{
+      	0%{
+      		transform: translateY(-350px);
+      	}
+      	80%{
+      		transform: translateY(20px);
+      	}
+      	100%{
+      		transform: translateY(0px);
+      	}
+      }
+  }

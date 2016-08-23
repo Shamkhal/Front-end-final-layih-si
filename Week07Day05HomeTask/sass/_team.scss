@@ -1,0 +1,166 @@
+$colorOne: #1AC6FF;
+$width: 1140px;
+#team{
+	background-color: white;
+	text-align: center;
+	padding-bottom: 30px;
+
+	.behindTheScienes{
+		h1{
+			letter-spacing: 1px;
+			font-size: 45px;
+			span{
+				color: $colorOne;
+			}
+		}
+		p{
+			line-height: 25px;
+			margin-bottom: 85px; 
+		}	
+	}
+	.personOne{
+		h5{
+				color: $colorOne;
+			}
+		.developerOne{
+			background-image: url(../img/person3.jpg);
+			height: 260px;
+		.hover{
+			display: none;
+			}
+		}	
+	}	
+	.personOne:hover{
+		.developerOne{
+			.hover{
+			background-color: $colorOne;
+			opacity: 0.7;
+			color: #FFFFFF;
+			display: inline-block;
+			p{
+				padding:  50px 25px 39px 25px;
+				line-height: 20px; 
+			}
+			i{
+				border: 1px solid #FFFFFF;
+				border-radius: 3px;
+				padding: 5px;
+				margin-bottom: 15px;
+			}
+			i:hover{
+				background-color: white;
+				color: $colorOne;
+				}
+			}		
+		}		
+	}
+	.personTwo{
+		h5{
+				color: $colorOne;
+			}
+		.developerTwo{
+			background-image: url(../img/person4.jpg);
+			height: 260px;
+			.hover{
+				display: none;
+			}
+		}		
+	}	
+	.personTwo:hover{
+		.developerTwo{
+			.hover{
+				background-color: $colorOne;
+				opacity: 0.7;
+				color: #FFFFFF;
+				display: inline-block;
+				p{
+					padding:  50px 25px 39px 25px;
+					line-height: 20px; 
+				}
+				i{
+					border: 1px solid #FFFFFF;
+					border-radius: 3px;
+					padding: 5px;
+					margin-bottom: 15px;
+				}
+				i:hover{
+					background-color: white;
+					color: $colorOne;
+				}
+			}		
+		}		
+	}
+	.personThree{
+		h5{
+				color: $colorOne;
+			}
+		.developerThree{
+			background-image: url(../img/person5.jpg);
+			height: 260px;
+			.hover{
+				display: none;
+			}
+		}
+	}	
+	.personThree:hover{
+		.developerThree{
+			.hover{
+				background-color: $colorOne;
+				opacity: 0.7;
+				color: #FFFFFF;
+				display: inline-block;
+				p{
+					padding:  40px 25px 10px 25px;
+					line-height: 20px; 
+				}
+				i{
+					border: 1px solid #FFFFFF;
+					border-radius: 3px;
+					padding: 5px;
+					margin-bottom: 15px;
+				}
+				i:hover{
+					background-color: white;
+					color: $colorOne;
+				}
+			}		
+		}
+		
+	}
+	.personFour{
+		h5{
+				color: $colorOne;
+			}
+		.developerFour{
+			background-image: url(../img/person6.jpg);
+			height: 260px;
+			.hover{
+				display: none;
+			}
+		}
+	}	
+	.personFour:hover{
+		.developerFour{
+			.hover{
+				background-color: $colorOne;
+				opacity: 0.7;
+				color: #FFFFFF;
+				display: inline-block;
+				p{
+					padding:  100px 25px 70px 25px;
+					line-height: 20px; 
+				}
+				i{
+					border: 1px solid #FFFFFF;
+					border-radius: 3px;
+					padding: 5px;
+					margin-bottom: 15px;
+				}
+				i:hover{
+					background-color: white;
+					color: $colorOne;
+				}
+			}	
+		}		
+	}
+}

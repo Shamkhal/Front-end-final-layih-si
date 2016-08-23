@@ -1,0 +1,34 @@
+
+@import "../sass/_header.scss";
+@import "../sass/_logo.scss";
+@import "../sass/_tabs.scss";
+@import "../sass/_startup.scss";
+@import "../sass/_technology.scss";
+@import "../sass/_helmet.scss";
+@import "../sass/_apple.scss";
+@import "../sass/_features.scss";
+@import "../sass/_updates.scss";
+@import "../sass/_packages.scss";
+@import "../sass/_awards.scss";
+@import "../sass/_team.scss";
+@import "../sass/_contact.scss";
+
+
+body{
+  height: 100%;
+  background: url('../img/background.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+
+$colorOne: #1AC6FF;
+$width: 1140px;
+
+
+
+
+
